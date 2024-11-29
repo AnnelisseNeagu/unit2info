@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.header {
+    text-align: right;
+    padding: 10px;
+    background-color: #6ba26e;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.nume {
+    color: blue;
+    font-size: 2em;
+    margin: 0;
+}
+.mail {
+    text-align: left;
+    color: darkblue;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.chenar1 {
+    background-color: #d9edf7;
+    border: 3px solid orange;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+}
+.titlu {
+    color: #2d6a4f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.subtitlu {
+    color: #2d6a4f;
+    font-size: 1.2em;
+}
+.detalii {
+    text-align: left;
+    list-style-type: square;
+    margin: 10px auto;
+    padding-left: 20px;
+}
+
+.specificatii {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.specificatii th {
+    background-color: #6ba26e;
+    color: rgb(57, 64, 150);
+    border: 1px solid rgb(57, 64, 150);
+    padding: 10px;
+}
+.specificatii td {
+    text-align: center;
+    border: 1px solid rgb(57, 64, 150);
+    padding: 8px;
+}
+.resurse {
+    text-align: center;
+    color:#2d6a4f;
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .chenar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c7bd7;
+   
+    overflow: hidden;  
+    
+  }
+  
+  .resource-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .resource-table td {
+    padding: 10px;
+  }
+  
+  .imagini {
+    width: 100px; /* Adjust image size */
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    
+  }
+  
+  .resource-table td img {
+    display: block;
+    margin: 0 auto;
+  }
+  .show {
+    display: block;  /* Afișează imaginea activă */
+  }
+  
